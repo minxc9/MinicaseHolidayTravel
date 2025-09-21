@@ -49,4 +49,8 @@ public class Vehicle {
     public void setBaseCost(double baseCost) {
         this.baseCost = baseCost;
     }
+
+    public String toString() {
+        return manufacturer + " " + model + " (" + year + "), baseCost=" + baseCost;
+    }
 }
